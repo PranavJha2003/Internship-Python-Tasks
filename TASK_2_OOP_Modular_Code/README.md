@@ -38,3 +38,17 @@ python -m unittest discover -s tests -v
 
 ## Test Results
 The project currently passes all five unit tests covering humidity validation, invalid drone IDs, CSV loading, observation composition, and temperature sensor inheritance.
+
+## Development Workflow
+
+This project uses Git for version control. New changes are developed on feature branches, committed with descriptive messages, and submitted through pull requests for review before being merged into the main branch.
+
+### Testing
+
+Run the unit tests from the repository root:
+
+```bash
+python -m unittest discover -s TASK_2_OOP_Modular_Code/tests -v
+```
+
+The tests cover humidity validation, invalid drone IDs, CSV loading, observation composition, and temperature sensor inheritance.
