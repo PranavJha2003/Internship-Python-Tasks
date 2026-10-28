@@ -89,3 +89,26 @@ Both projects include automated tests using Python's built-in `unittest` framewo
 ## Version Control
 
 The repository is intended to demonstrate Git fundamentals, feature branches, commits, pull requests, code review, documentation, and issue tracking as part of the internship engineering workflow.
+
+## Running the Tests
+
+Run the Task 1 tests from its directory:
+
+```powershell
+cd Task1_Python_Fundamentals
+python -m unittest discover -s tests -v
+```
+
+Run the Task 2 tests from its directory:
+
+```powershell
+cd ..
+cd TASK_2_OOP_Modular_Code
+python -m unittest discover -s tests -v
+```
+
+### Expected Results
+
+- Task 1: 3 unit tests pass.
+- Task 2: 5 unit tests pass.
+- Total: 8 unit tests pass across both assignments.
