@@ -1,0 +1,17 @@
+[
+  {
+    "drone_id": "DR-01",
+    "location": "North Field",
+    "temperature": "24.5"
+  },
+  {
+    "drone_id": "DR-02",
+    "location": "South Field",
+    "temperature": null
+  },
+  {
+    "drone_id": "DR-03",
+    "location": "East Ridge",
+    "temperature": "27.3"
+  }
+]
